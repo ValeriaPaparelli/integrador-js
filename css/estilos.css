@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 252, 247);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Elementos ocultos */
+#detalleCarrito {
+    display: none;
+}
+
+#ocultarCarrito {
+    display: none;
+}
+
+#mensajeCompra {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #b39864;
+    display: block;
+    text-align: center;
+    background-color: #b39864;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(207, 202, 176);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: #575759;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.titulos {
+    color: #575759;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+/* Estilos Productos*/
+
+.productos {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(82, 81, 81);
+    margin: 10px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.producto:hover {
+    background-color:rgb(235, 235, 235);
+}
+
+.imagen {
+    width: 50px;
+}
+
+.nombre {
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    color: #594c34;
+    padding-left: 10px;
+}
+
+.detalle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.agregar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.precio-container {
+    display: flex;
+}
+
+.precio {
+    color:rgb(134, 122, 83);
+    font-size: 22px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Carrito */
+
+.carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 400px;
+}
+
+.acciones {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.carrito-visible {
+    font-size: 10px;
+    padding: 8px;
+    background-color: gray; 
+}
+
+.carrito-visible:hover {
+    background-color: rgb(89, 89, 89); 
+}
+
+.detalle-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.vaciar-carrito {
+    background-color: rgb(184, 122, 99);
+    font-size: 12px;
+    padding: 8px;
+}
+
+.vaciar-carrito:hover {
+    background-color: rgb(155, 91, 68);
+}
+
+.confirmar-compra {
+    background-color: rgb(98, 144, 98);
+    margin-left: 20px;
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+.confirmar-compra:hover {
+    background-color: rgb(62, 126, 62);
+}
+
+.resumen {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+    width: 320px;
+}
+
+.cantidad-productos {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(98, 144, 98);
+    color: white;
+}
+
+.total {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.productos-carrito {
+    max-height: 220px;
+    overflow-y: scroll;
+}
+
+.producto-carrito {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid silver;
+    margin-bottom: 10px;
+    animation: fadeIn 0.4s;
+    padding-right: 4px;
+}
+
+.imagen-carrito {
+    width: 35px;
+    height: 100%;
+    margin: 5px;
+}
+
+.datos-producto-carrito {
+    flex: 1;
+}
+
+.nombre-carrito {
+    margin: 0;
+    font-size: 16px;
+    color: #594c34;
+}
+
+.precio-carrito {
+    color:rgb(134, 122, 83);
+    font-size: 18px;
+    padding: 5px;
+    margin: 0;
+}
+
+.precio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parrafoCarrito {
+    color: rgb(82, 81, 81);
+    text-align: center;
+}
+
+.mensaje-compra {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: #f4f0e8;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

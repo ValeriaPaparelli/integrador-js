@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "nombre": "Crema piel mixta",
+        "precio": 760,
+        "imagen": "pielMixta.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Crema corporal",
+        "precio": 990,
+        "imagen": "corporal.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Gel de limpieza",
+        "precio": 720,
+        "imagen": "gel.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Serum",
+        "precio": 730,
+        "imagen": "serum.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Crema piel seca",
+        "precio": 780,
+        "imagen": "pielSeca.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Crema de manos",
+        "precio": 600,
+        "imagen": "manos.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Agua micelar",
+        "precio": 600,
+        "imagen": "micelar.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Crema piel grasa",
+        "precio": 660,
+        "imagen": "pielGrasa.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Contorno de ojos",
+        "precio": 530,
+        "imagen": "contorno.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Mascarilla de arcilla",
+        "precio": 350,
+        "imagen": "arcillas.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Crema de limpieza",
+        "precio": 780,
+        "imagen": "limpieza.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Tónico facial",
+        "precio": 630,
+        "imagen": "tonico.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Bálsamo labial",
+        "precio": 275,
+        "imagen": "balsamo.jpg"
+    }
+]
